@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+
+body{ background-color: #bce2f591; }
+
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { border: 5px #87aec2 solid; width: 640px; text-align: center;
+               background-color: #2A363B; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 560px; border: 4.5px #A0D2EB solid; text-align: right;
+                 position: relative; left: 30px;  padding: 5px 5px;
+                 background-color: white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                 overflow: hidden; padding-right: 5px; font-size: 1.15em;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 80px; height: 30px; padding: 0; border-radius: 8px; font-weight: bold; font-size: 15px;}
+.calculadora input.op:hover { background-color: #587FFC; color: white}
+
+/*botones especiales*/
+.calculadora input.largo { color:#2f4eab; width: 120px; font-weight: bold;}
+
+.calculadora input.largo:hover { background-color: #587FFC; color: white }
+
+h1{ text-align: center; margin-bottom: 8px; font-family: 'Averia Serif Libre', cursive;}
